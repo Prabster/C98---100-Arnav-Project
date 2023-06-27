@@ -1,0 +1,58 @@
+<html>
+    <head>
+<title>My Selfie App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="MySelfie.png"></a>
+
+        <h1>Collage Web App</h1>
+        <hr>
+        <h4 style="color:rgb(20, 70, 10);">Please press allow as soon as the popup comes, after you give a voice command.</h4>
+        
+        <div class="form-group">
+            <h3>Press Start Button And Say "Selfie" To Take Photo To Make A Collage Collage</h3>
+            <label>Your voice output : </label>
+
+            <br>
+
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <button class="btn btn-warning myButton" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result"></div>
+
+        <img src="Pic1.png">
+
+        <br>
+        <br>
+        <br>
+
+        <img src="Pic2.png">
+
+        <br>
+        <br>
+        <br>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

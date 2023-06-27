@@ -1,0 +1,35 @@
+body
+{
+    background-color:coral;
+    color:white;
+}
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height:250px;
+    border:1px solid rgb(255, 255, 255);
+}
+#result
+{
+    width:360px;
+    height:250px;
+    border:1px solid rgb(255, 255, 255);
+    margin-bottom:15px;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+.myButton
+{
+    font-size:25px;
+}
